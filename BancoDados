@@ -1,0 +1,17 @@
+CREATE TABLE Usuario
+(
+   [Id] INT NOT NULL PRIMARY KEY IDENTITY,
+   [NomeUsuario] NVARCHAR(50) NOT NULL,
+   [Senha] NVARCHAR(50) NOT NULL
+)
+insert into Usuario values ('Admin', 'Admin123')
+
+CREATE TABLE Livro
+(
+   [Id] INT NOT NULL PRIMARY KEY IDENTITY,
+   [Titulo] NVARCHAR(100) NOT NULL,
+   [Autor] NVARCHAR(100) NOT NULL,
+   [Alugado] bit NOT NULL
+)
+insert into Livro values ('PROCRASTINAÇÃO: Guia científico sobre como parar de procrastinar', 'Lilian Soares',0)
+insert into Livro values ('Arrume a sua cama', ' William H. Mcraven',0)

@@ -1,0 +1,7 @@
+\bin
+\obj
+\.vs
+\packages
+*.csproj.user
+*.Debug.config
+*.Release.config
